@@ -167,6 +167,17 @@ color: var(--text-color);
   align-items: center;
   margin-bottom: 48px;
 }
+.filter-search-wrapper {
+  position: relative;
+}
+.filtrs-search-icon{
+  position: absolute;
+  left: 32px;
+  top: 19px;
+  color: var(--text-color);
+  pointer-events: none;
+}
+
 .filters-searach-input {
   min-width: 480px;
   padding: 18px 74px;
